@@ -1,0 +1,362 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.span {
+  color: var(--color-gray-100);
+}
+.logo-p {
+  margin: 0;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  width: 93px;
+  height: 55px;
+  flex-shrink: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.felix-h1.animate,
+.logo-p.animate,
+.stopcryingxyz-h1.animate,
+.yo-developer-from-autsria.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.aboutme-span {
+  color: var(--color-indigo);
+}
+.aboutme {
+  text-decoration: none;
+  color: inherit;
+}
+.aboutme,
+.contact-div {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.links-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.ellipse-icon,
+.ellipse-icon1,
+.ellipse-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+}
+.ellipse-icon1,
+.ellipse-icon2 {
+  top: 22.5px;
+}
+.ellipse-icon2 {
+  top: 45px;
+}
+.men-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 15px;
+  height: 60px;
+  flex-shrink: 0;
+  display: none;
+}
+.frame-div,
+.frame-div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame-div1 {
+  justify-content: center;
+  gap: var(--gap-md);
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.frame-div {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.navigationbar-div {
+  background-color: var(--color-gray-300);
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md) var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: 0;
+  position: sticky;
+  font-size: var(--font-size-xl);
+  color: var(--color-indigo);
+}
+.felix-h1,
+.stopcryingxyz-h1,
+.yo-developer-from-autsria {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  opacity: 0;
+}
+.stopcryingxyz-h1 {
+  top: 0;
+  font-size: inherit;
+  width: 545px;
+  height: 105px;
+}
+.felix-h1,
+.yo-developer-from-autsria {
+  top: 105px;
+  font-size: var(--font-size-lg);
+  color: var(--color-indigo);
+}
+.yo-developer-from-autsria {
+  top: 165px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.group-div,
+.text-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 545px;
+  height: 212px;
+}
+.text-div {
+  left: 68px;
+}
+.line-icon,
+.main-div {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 16px;
+  height: 677px;
+}
+.main-div {
+  top: 254px;
+  left: 286px;
+  width: 613px;
+  height: 726px;
+}
+.aboutme-div {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 1920px;
+  height: 980px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frame-icon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 4px;
+  height: 968px;
+}
+.coding-since-2020,
+.i-can-speak {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.coding-since-2020 {
+  top: 0;
+  font-size: inherit;
+  width: 646px;
+  height: 105px;
+}
+.i-can-speak {
+  top: 105px;
+  font-size: var(--font-size-lg);
+  width: 247px;
+  height: 60px;
+}
+.i-can-speak,
+.span2 {
+  color: var(--color-gray-200);
+}
+.css-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.javascript {
+  margin: 0;
+}
+.css-html-javascript {
+  margin: 0;
+  position: absolute;
+  top: 165px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 195px;
+  height: 140px;
+  color: var(--color-indigo);
+}
+.frame-div2,
+.text2-div {
+  position: absolute;
+  top: 331.5px;
+  left: 60px;
+  width: 646px;
+  height: 305px;
+}
+.frame-div2 {
+  top: 0;
+  left: 296px;
+  width: 706px;
+  height: 968px;
+}
+.coding-div {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 1920px;
+  height: 968px;
+  flex-shrink: 0;
+}
+.how-to-contact-me,
+.you-can-contact-me-on-discord {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.how-to-contact-me {
+  top: 0;
+  font-size: inherit;
+}
+.you-can-contact-me-on-discord {
+  top: 110px;
+  font-size: var(--font-size-lg);
+  width: 962px;
+}
+.line-div,
+.text3-div {
+  position: absolute;
+  top: 467px;
+  left: 352px;
+  width: 962px;
+  height: 230px;
+}
+.line-div {
+  top: -2px;
+  left: 290px;
+  border-right: 4px solid var(--color-indigo);
+  box-sizing: border-box;
+  width: 4px;
+  height: 1071px;
+}
+.contact-div1 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 1920px;
+  height: 1067px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.span5 {
+  color: var(--color-white);
+}
+.text4-div,
+.thank-you {
+  position: absolute;
+  width: 823px;
+}
+.thank-you {
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-weight: 800;
+  display: inline-block;
+}
+.text4-div {
+  top: 505px;
+  left: 626px;
+  height: 150px;
+}
+.ellipse-icon3,
+.line-icon1 {
+  position: absolute;
+  top: 0.02px;
+  left: 292px;
+  width: 9px;
+  height: 580.01px;
+}
+.ellipse-icon3 {
+  top: 570px;
+  left: 291px;
+  width: 16px;
+  height: 16px;
+}
+.ende-div {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 1920px;
+  height: 1120px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: var(--font-size-3xl);
+  color: var(--color-indigo);
+}
+.fertig-div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .frame-div2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .links-div {
+    display: none;
+  }
+  .men-button {
+    display: flex;
+  }
+}
+@media screen and (max-width: 428px) {
+  .navigationbar-div {
+    padding-left: var(--padding-sm);
+    padding-right: var(--padding-sm);
+    box-sizing: border-box;
+  }
+}

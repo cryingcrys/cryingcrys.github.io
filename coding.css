@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.span7 {
+  color: var(--color-indigo);
+}
+.coding-since-20201,
+.i-can-speak1 {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.coding-since-20201 {
+  top: 0;
+  font-size: inherit;
+  width: 646px;
+  height: 105px;
+}
+.i-can-speak1 {
+  top: 110px;
+  font-size: var(--font-size-lg);
+  width: 247px;
+  height: 60px;
+}
+.i-can-speak1,
+.span8 {
+  color: var(--color-gray-200);
+}
+.css-p1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.javascript1 {
+  margin: 0;
+}
+.css-html-javascript1 {
+  margin: 0;
+  position: absolute;
+  top: 191px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 195px;
+  height: 140px;
+  color: var(--color-indigo);
+}
+.group-icon1,
+.text2-div1 {
+  position: absolute;
+  top: 355px;
+  left: 356px;
+  width: 646px;
+  height: 331px;
+}
+.group-icon1 {
+  top: 0;
+  left: 292px;
+  width: 4px;
+  height: 968px;
+}
+.coding-div1 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 968px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
