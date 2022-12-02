@@ -9,6 +9,9 @@
 body {
   margin: 0;
   line-height: normal;
+  position: fixed;
+  top: 0;
+  
 }
 .span6 {
   color: var(--color-gray-100);
